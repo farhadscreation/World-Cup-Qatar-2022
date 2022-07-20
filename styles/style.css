@@ -9,10 +9,6 @@
 }
 
 /* banner styles start here */
-.container {
-    width: 100%;
-    margin: 0 auto;
-}
 
 .main-container {
     width: 1320px;
@@ -32,6 +28,9 @@
     display: flex;
 }
 
+.transfer-info img {
+    width: 100%;
+}
 
 .title h1 {
     padding-left: 106px;
@@ -41,6 +40,11 @@
     line-height: 80px;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+.page-filter a.active {
+    background-color: #DD0000;
+    color: white;
 }
 
 .title p {
@@ -132,9 +136,12 @@
     padding: 30px;
     background-color: #161616;
     border-radius: 10px;
-    width: 100%;
-    height: 316px;
+    width: 32%;
+    height: auto;
+    align-items: flex-start;
 }
+
+
 
 .page-filter a {
     background-color: #DD0000;
@@ -155,6 +162,7 @@
 
 .page-section {
     display: flex;
+    align-items: flex-start;
 }
 
 .transfer-section,
@@ -164,6 +172,7 @@
     grid-row-gap: 20px;
     grid-column-gap: 20px;
     margin-left: 25px;
+    width: 90%;
 }
 
 .transfer-info {
@@ -242,7 +251,7 @@
 .match-section {
     border: 1px solid #E8E8E8;
     border-radius: 10px;
-    padding: 53px 25px;
+    padding: 53px 20px;
     align-items: center;
     height: auto;
     width: 100%;
@@ -457,11 +466,14 @@ hr {
     .player img {
         width: 100%;
         height: 100%;
+        display: block;
     }
 
     .page-section {
         display: flex;
         flex-direction: column;
+
+        align-items: center;
     }
 
     .pages {
@@ -483,6 +495,14 @@ hr {
         background-color: #ffffff;
         color: #161616;
         border: 1px solid #161616;
+    }
+
+    .transfer-section {
+        width: 90%;
+    }
+
+    .match-section {
+        padding: 53px 45px;
     }
 
     .transfer-section,
