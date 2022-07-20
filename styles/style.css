@@ -42,11 +42,6 @@
     margin-bottom: 20px;
 }
 
-.page-filter a.active {
-    background-color: #DD0000;
-    color: white;
-}
-
 .title p {
     font-size: 16px;
     font-weight: 400;
@@ -141,15 +136,19 @@
     align-items: flex-start;
 }
 
-
+.page-section .page-filter a.active {
+    color: #fff;
+    background-color: #DD0000;
+}
 
 .page-filter a {
-    background-color: #DD0000;
+    /* background-color: #DD0000; */
+    background-color: #E8E8E8;
     display: block;
     padding: 17px 39px;
     border-radius: 10px;
     font-size: 20px;
-    color: #ffffff;
+    color: #161616;
     font-weight: 500;
     text-align: center;
 }
