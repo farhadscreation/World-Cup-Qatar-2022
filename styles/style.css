@@ -139,30 +139,39 @@
 }
 
 .flt-btn {
+    transition: 0.5s;
     display: block;
-    background-color: #E8E8E8;
     padding: 17px 39px;
     border-radius: 10px;
     font-size: 20px;
-    color: #161616;
     font-weight: 500;
+    color: #FFFFFF;
     text-align: center;
+    background-color: #DD0000;
 }
 
-.page-filter a {
-    background-color: #DD0000;
+#mr-bt:hover {
+    background-color: #1b0101;
+    color: #FFFFFF;
+}
+
+.flt-btn:hover {
     display: block;
     padding: 17px 39px;
     border-radius: 10px;
     font-size: 20px;
-    color: #fff;
     text-align: center;
+    background-color: #1b0101;
+    color: #FFFFFF;
+    box-shadow: inset 0 0 0 #fb515166, 0 0 1.5em #fb515199;
+    transition: 0.5s;
 }
 
 #mr-bt {
     margin-bottom: 30px;
     background-color: #ffffff;
-    color: #161616;
+    color: black;
+    border: #fb5f1516 solid 2px;
 }
 
 .page-section {
